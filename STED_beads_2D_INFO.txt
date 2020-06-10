@@ -1,6 +1,0 @@
-resolution = 7 pixels
-noise_lvl = 1 (2 can be used as well) 
-
-Values are based on FWHM of individual beads.
-
-Measurements performed by Dr. Weichun Zhang.
