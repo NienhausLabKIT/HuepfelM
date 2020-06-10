@@ -1,1 +1,0 @@
-Code by Manuel Hüpfel
