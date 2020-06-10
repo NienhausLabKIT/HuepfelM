@@ -1,0 +1,13 @@
+resolution = 4 pixels
+noise_lvl = 1
+
+Values are based on FWHM of the microscopes PSF.
+
+Data taken from
+
+Kobitski, A., Otte, J., Takamiya, M. et al. 
+An ensemble-averaged, cell density-based digital model of zebrafish embryo development 
+derived from light-sheet microscopy data with single-cell resolution. 
+Sci Rep 5, 8601 (2015). https://doi.org/10.1038/srep08601
+
+With courtesy of Dr. Andrei Y. Kobitski.
