@@ -1,1 +1,1 @@
-WBNS - Wavelet-based Background and Noise Subtraction
+Code by Manuel Hüpfel
