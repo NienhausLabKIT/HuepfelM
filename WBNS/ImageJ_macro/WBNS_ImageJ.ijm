@@ -69,7 +69,7 @@ noise_lvl = Dialog.getNumber();
 show_bg = Dialog.getCheckbox();
 show_nse = Dialog.getCheckbox();
 
-lvls = Math.ceil(FWHM/2);
+lvls = Math.ceil(log(FWHM)/log(2));
 sigma = Math.pow(2,lvls);
 print("FWHM Input: "+FWHM+" \n #Levels: "+lvls+" \n Sigma: "+sigma+" ");
 
