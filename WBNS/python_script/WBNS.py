@@ -9,9 +9,8 @@ see README.txt for instructions
 #---INSERT FILE AND PARAMETERS------------------------------------------------
 
 #insert directory and file name
-#even number of pixels in lateral direction required
-data_dir = "S:/AG Nienhaus/data/Manuel/E_Publication/Wavelet-based Background Subtraction/D_Code/demo_data/"
-file = "Slice_raw.tif"
+data_dir = "F:/tmp_data/"
+file = "Final Display of SIM.tif"
 
 #insert resolution in units of pixels (FWHM of the PSF)
 resolution_px = 4
@@ -56,7 +55,7 @@ def wavelet_based_BG_subtraction(image,num_levels,noise_lvl):
 #---RUN WBNS; PLOT AND SAVE RESULTS-------------------------------------------
 
 #number of levels for background estimate
-num_levels = np.uint16(np.ceil(resolution_px/2))
+num_levels = np.uint16(np.ceil(np.log2(resolution_px)))
 
 #read image file adjust shape if neccessary (padding) and plot
 image = io.imread(os.path.join(data_dir, file))
