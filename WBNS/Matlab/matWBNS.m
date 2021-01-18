@@ -3,7 +3,7 @@ function clrImg = matWBNS(Img, psfw, nlvl)
 % psfw - PSF width in pixels
 % nlvl - level of DWT decomposition for noise subtraction 
 
-blvl = ceil(psfw/2); % level of DWT decomposition for background subtraction 
+blvl = ceil(log2(psfw)); % level of DWT decomposition for background subtraction 
 sigma = pow2(blvl);
 
 clrImg = Img; %cleared image initialization
